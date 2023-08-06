@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="176586" started-at="2023-08-06T11:23:33 IST" finished-at="2023-08-06T11:26:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="176586" started-at="2023-08-06T11:23:33 IST" finished-at="2023-08-06T11:26:29 IST">
+      <class name="testCases.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login@50d0686]" name="setUp" is-config="true" duration-ms="38866" started-at="2023-08-06T11:23:33 IST" finished-at="2023-08-06T11:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:testCases.Login@50d0686]" name="testLogin" duration-ms="12126" started-at="2023-08-06T11:24:12 IST" finished-at="2023-08-06T11:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.Login@50d0686]" name="closeBrowser" is-config="true" duration-ms="3177" started-at="2023-08-06T11:24:24 IST" finished-at="2023-08-06T11:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login@50d0686]" name="setUp" is-config="true" duration-ms="27093" started-at="2023-08-06T11:24:27 IST" finished-at="2023-08-06T11:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LiginWithInvalidPasswodCredentials()[pri:2, instance:testCases.Login@50d0686]" name="LiginWithInvalidPasswodCredentials" duration-ms="18191" started-at="2023-08-06T11:24:54 IST" finished-at="2023-08-06T11:25:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiginWithInvalidPasswodCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.Login@50d0686]" name="closeBrowser" is-config="true" duration-ms="9045" started-at="2023-08-06T11:25:12 IST" finished-at="2023-08-06T11:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login@50d0686]" name="setUp" is-config="true" duration-ms="17628" started-at="2023-08-06T11:25:21 IST" finished-at="2023-08-06T11:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LiginWithoutPasswodCredentials()[pri:3, instance:testCases.Login@50d0686]" name="LiginWithoutPasswodCredentials" duration-ms="3222" started-at="2023-08-06T11:25:39 IST" finished-at="2023-08-06T11:25:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiginWithoutPasswodCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.Login@50d0686]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2023-08-06T11:25:42 IST" finished-at="2023-08-06T11:25:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Login -->
+      <class name="testCases.signUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.signUp@7a3d45bd]" name="setUp" is-config="true" duration-ms="15101" started-at="2023-08-06T11:25:43 IST" finished-at="2023-08-06T11:25:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpWithInvalidCredentials()[pri:0, instance:testCases.signUp@7a3d45bd]" name="SignUpWithInvalidCredentials" duration-ms="2798" started-at="2023-08-06T11:25:58 IST" finished-at="2023-08-06T11:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithInvalidCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.signUp@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="2793" started-at="2023-08-06T11:26:01 IST" finished-at="2023-08-06T11:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.signUp@7a3d45bd]" name="setUp" is-config="true" duration-ms="15033" started-at="2023-08-06T11:26:04 IST" finished-at="2023-08-06T11:26:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSignUp()[pri:0, instance:testCases.signUp@7a3d45bd]" name="testSignUp" duration-ms="10251" started-at="2023-08-06T11:26:19 IST" finished-at="2023-08-06T11:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.signUp@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="392" started-at="2023-08-06T11:26:29 IST" finished-at="2023-08-06T11:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.signUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
