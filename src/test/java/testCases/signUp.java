@@ -23,7 +23,7 @@ public class signUp extends driverInstance {
 	sign_up.clickonSignUpButtonOnHomepage();
 	Thread.sleep(2000);
 	sign_up.EnterUserName("Test9876129@yopmail.com");
-	sign_up.EnterPassword("Guvi123");
+	sign_up.EnterPassword("Test123");
 	sign_up.ClickOnSignUpToRegister();
 
 	Thread.sleep(6000);

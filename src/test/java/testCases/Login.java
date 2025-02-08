@@ -26,11 +26,11 @@ public class Login extends driverInstance{
 		
 		login.clickOnLoginBtnHomepage();
 		Thread.sleep(2000);
-		String user_name ="testguvi3@yopmail.com";
+		String user_name ="test3@yopmail.com";
 		Thread.sleep(1000);
 		login.EnterUsername(user_name);
 		Thread.sleep(1000);
-		login.EnterPassword("Guvi123");
+		login.EnterPassword("Test123");
 		login.clickOnLogin();
 		//Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMinutes(1));
@@ -48,7 +48,7 @@ public class Login extends driverInstance{
 		LoginPageObjects login = new LoginPageObjects(driver);
 		
 		login.clickOnLoginBtnHomepage();
-		login.EnterUsername("testguvi3@yopmail.com");
+		login.EnterUsername("testtest3@yopmail.com");
 		login.EnterPassword(" ");
 		login.clickOnLogin();
 		Thread.sleep(2000);
@@ -66,7 +66,7 @@ public class Login extends driverInstance{
 		LoginPageObjects login = new LoginPageObjects(driver);
 		
 		login.clickOnLoginBtnHomepage();
-		login.EnterUsername("testguvi3@yopmail.com");
+		login.EnterUsername("testtest3@yopmail.com");
 		login.EnterPassword("");
 		login.clickOnLogin();
 		Thread.sleep(2000);
